@@ -99,7 +99,8 @@ export default function App() {
   return (
     <View style={{borderWidth:1}}>
     <Text>
-      {item.id}
+      {item.id
+      }
     </Text>
     <Text>
       {item.title}
