@@ -98,7 +98,7 @@ export default function App() {
   const renderItem = ({ item }) => {
   return (
     <View style={{borderWidth:1}}>
-  <Text >
+    <Text>
       {item.id}
     </Text>
     <Text>
@@ -167,7 +167,7 @@ export default function App() {
        if(item.id==data?.id)
        {
          obj.title=item?.title
-         item.id=item.id
+         obj.id=item.id
          obj.companyName=data.company.name
          dataArr.push(obj);
 
